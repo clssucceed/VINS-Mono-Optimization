@@ -14,3 +14,10 @@ test.launch
 .idea
 line_feature_tracker/line_descriptor/build
 */.idea
+camera_model/cmake-build-debug/
+
+line_feature_tracker/cmake-build-debug/
+
+line_vins_estimator/cmake-build-debug/
+
+pose_graph/cmake-build-debug/

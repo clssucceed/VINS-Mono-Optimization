@@ -49,7 +49,7 @@ void LineFeature::detectLineFeatures( cv::Mat img, vector<cv::line_descriptor::K
 
             if( img.channels() != 1 )
             {
-                cv::cvtColor( img, img_gray, CV_RGB2GRAY );
+                cv::cvtColor( img, img_gray, cv::COLOR_RGB2GRAY );
                 img_gray.convertTo( fld_img, CV_8UC1 );
             }
             else

@@ -4,6 +4,7 @@
 #include <cassert>
 #include <cstring>
 #include <eigen3/Eigen/Dense>
+#include <vector>
 
 class Utility {
 public:
